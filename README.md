@@ -1,5 +1,6 @@
 # SMD soldering challenge
 
+![schematic](screenshots/pcbblack.PNG)
 
 This project is about hand-soldering tiny SMD components onto a PCB. Similar to [Defcon](https://dchhv.org/events/smdsolderchallenge.html) in [2018](https://hackaday.com/2018/08/02/smd-soldering-challenge-lands-at-def-con/).
 
@@ -34,6 +35,7 @@ Status:
 ![schematic](screenshots/schematic.PNG)
 ![schematic](screenshots/jlcpcbfront.png)
 
+![schematic](screenshots/pcbfront.PNG)
 
 changes I made (on purpose)
 - two LEDs per type, flip one other than the first, and everything will light up
