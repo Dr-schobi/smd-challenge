@@ -2,7 +2,7 @@
 
 
 This project is about hand-soldering tiny SMD components onto a PCB.
-The approach became popular at Defcon [https://dchhv.org/events/smdsolderchallenge.html] in 2018 [https://hackaday.com/2018/08/02/smd-soldering-challenge-lands-at-def-con/].
+The approach became popular at [Defcon](https://dchhv.org/events/smdsolderchallenge.html) in [2018](https://hackaday.com/2018/08/02/smd-soldering-challenge-lands-at-def-con/).
 
 
 My goals:
