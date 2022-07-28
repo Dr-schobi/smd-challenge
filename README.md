@@ -32,10 +32,10 @@ Status:
 
 
 
-![schematic](screenshots/schematic.PNG)
+![schematic](screenshots/schematic.PNG | width = 300)
 ![schematic](screenshots/jlcpcbfront.png)
 
-![schematic](screenshots/pcbfront.PNG)
+![schematic](screenshots/pcbfront.PNG | width = 300)
 
 changes I made (on purpose)
 - two LEDs per type, flip one other than the first, and everything will light up
