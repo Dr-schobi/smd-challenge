@@ -32,7 +32,7 @@ Status:
 
 
 ![schematic](screenshots/schematic.PNG)
-![schematic](screenshots/jlcpcbfront.PNG)
+![schematic](screenshots/jlcpcbfront.png)
 
 
 changes I made (on purpose)
@@ -45,7 +45,7 @@ changes I made (on purpose)
 
 I put together a list of components I ordered from LCSC:
 
-Resistors:
+Resistors  (package, value, number of pieces I ordered, description):
 - 0201 R 330Ohm    500  UNI-ROYAL(Uniroyal Elec) 0201WMF3300TEE   [LCSC Part # C516485](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF3300TEE_C516485.html)
 - 0201 R 330Ohm    500  Walsin Tech Corp WR02X3300FTL       [LCSC Part # C367585](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Walsin-Tech-Corp-WR02X3300FTL_C367585.html)
 - 0402 R 330Ohm    300  FOJAN FRC0402F3300TS                [LCSC Part # C2930002](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC0402F3300TS_C2930002.html)
@@ -54,19 +54,19 @@ Resistors:
 - 1206 R 330Ohm    300  FOJAN FRC1206F3300TS                [LCSC Part # C2933675](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC1206F3300TS_C2933675.html)
 - 1210 R 330Ohm    150  FOJAN FRC1210F3300TS                [LCSC Part # C2933817](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC1210F3300TS_C2933817.html)
 
+LEDs (package, value, number of pieces I ordered, description):
+- 0201 LED red   150   XINGLIGHT XL-0201SURC        [LCSC Part # C3646923](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-0201SURC_C3646923.html)
+- 0402 LED red   100   XINGLIGHT XL-1005SURC        [LCSC Part # C965790](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-1005SURC_C965790.html)
+- 0603 LED red   100   XINGLIGHT XL-1608SURC-06     [LCSC Part # C965799](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-1608SURC-06_C965799.html)
+- 0805 LED red   100   XINGLIGHT XL-2012SURC        [LCSC Part # C965812](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-2012SURC_C965812.html)
+- 1206 LED red   100   TUOZHAN P2-1206RTCS2-0.9T-F  [LCSC Part # C2827254](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TUOZHAN-P2-1206RTCS2-0-9T-F_C2827254.html)
+- 1210 LED red   100   XINGLIGHT XL-3227SURUGC      [LCSC Part # C965842](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-3227SURUGC_C965842.html)
 
-0201 LED red   150   XINGLIGHT XL-0201SURC        LCSC Part # C3646923
-0402 LED red   100   XINGLIGHT XL-1005SURC        LCSC Part # C965790
-0603 LED red   100   XINGLIGHT XL-1608SURC-06     LCSC Part # C965799 
-0805 LED red   100   XINGLIGHT XL-2012SURC        LCSC Part # C965812
-1206 LED red   100   TUOZHAN P2-1206RTCS2-0.9T-F  LCSC Part # C2827254
-1210 LED red   100   XINGLIGHT XL-3227SURUGC      LCSC Part # C965842
+Others
+0603 C 10uF10V  100    Samsung Electro-Mechanics CL10A106KP8NNNC  [LCSC Part # C19702](https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html)
 
-
-0603 C 10uF10V  100    Samsung Electro-Mechanics CL10A106KP8NNNC  LCSC Part # C19702
-
-SIOC-8 150mil  15x    Microchip Tech ATTINY13A-SSU   LCSC Part # C14075
-Batt    15x   Q&J CR2032-BS-6-1   LCSC Part # C70377
+SIOC-8 150mil  15x    Microchip Tech ATTINY13A-SSU   [LCSC Part # C14075](https://lcsc.com/product-detail/ATMEL-AVR_Microchip-Tech-ATTINY13A-SSU_C14075.html)
+Batt    15x   Q&J CR2032-BS-6-1   [LCSC Part # C70377](https://lcsc.com/product-detail/Battery-Connectors_Q-J-CR2032-BS-6-1_C70377.html)
 
 
 
