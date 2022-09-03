@@ -31,8 +31,8 @@ Status:
 # Schematic and PCB
 
 
-
 ![schematic](screenshots/schematic.PNG)
+
 ![schematic](screenshots/jlcpcbfront.png)
 
 ![schematic](screenshots/pcbfront.PNG)
@@ -65,10 +65,9 @@ LEDs (package, value, number of pieces I ordered, description):
 - 1210 LED red   100   XINGLIGHT XL-3227SURUGC      [LCSC Part # C965842](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-3227SURUGC_C965842.html)
 
 Others
-0603 C 10uF10V  100    Samsung Electro-Mechanics CL10A106KP8NNNC  [LCSC Part # C19702](https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html)
-
-SIOC-8 150mil  15x    Microchip Tech ATTINY13A-SSU   [LCSC Part # C14075](https://lcsc.com/product-detail/ATMEL-AVR_Microchip-Tech-ATTINY13A-SSU_C14075.html)
-Batt    15x   Q&J CR2032-BS-6-1   [LCSC Part # C70377](https://lcsc.com/product-detail/Battery-Connectors_Q-J-CR2032-BS-6-1_C70377.html)
+- 0603 C 10uF10V  100    Samsung Electro-Mechanics CL10A106KP8NNNC  [LCSC Part # C19702](https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html)
+- SIOC-8 150mil  15x    Microchip Tech ATTINY13A-SSU   [LCSC Part # C14075](https://lcsc.com/product-detail/ATMEL-AVR_Microchip-Tech-ATTINY13A-SSU_C14075.html)
+- Batt    15x   Q&J CR2032-BS-6-1   [LCSC Part # C70377](https://lcsc.com/product-detail/Battery-Connectors_Q-J-CR2032-BS-6-1_C70377.html)
 
 
 
