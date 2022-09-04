@@ -1,5 +1,9 @@
 # SMD soldering challenge
 
+https://user-images.githubusercontent.com/78444256/188329124-fbfda367-b1dc-41d7-a8d5-ee6e349dee65.mp4
+
+
+
 ![schematic](screenshots/pcbblack.PNG)
 
 This project is about hand-soldering tiny SMD components onto a PCB. Similar to [Defcon](https://dchhv.org/events/smdsolderchallenge.html) in [2018](https://hackaday.com/2018/08/02/smd-soldering-challenge-lands-at-def-con/).
@@ -7,26 +11,28 @@ This project is about hand-soldering tiny SMD components onto a PCB. Similar to 
 
 My goals:
 - I wanna try! (both with and without extra tools).
-  In the past, I've done some PCB development, debugging, soldering and measuring around 2008 for developing digital cameras, with large FPGAs (Xilinx Vertex), my own DDR Memory controller and complex 10+ layer PCBs. Back then, this was no 0201 and I'm much older now with many years of just Matlab coding and only little electronics.
+  In the past, I've done some PCB development, debugging, soldering and measuring around 2008 for developing digital cameras, with large FPGAs (Xilinx Vertex), my own DDR memory controller on complex 10+ layer PCBs. Back then, this was no 0201 and I'm much older now with many years of just Matlab coding and only little electronics. 
   
 
 - I don't think that I will succeed on the first try.
   I will need more than one shot with the tiny components, especially towards 0201. 
-  the kit from the set above comes with one component each - this is not enough.
+  the kit from the set above comes with one component each - this might not be enough.
 
 - Learn some more! 
   The new Kicad 6 looks realy good and I'm lacking practice in PCB design, this looks like a good chance for a quick project with focus on aesthetics.   
   I've not worked wit Atmel microcontrollers for over 15 years - time to refresh.
   
 - Maybe this is for sharing?
-  In the last years I met a few electronics developers who might like to be gifted a kit. I'm certainly not going to order just one set.
+  In the last years, I met a few electronics developers who might like to be gifted a kit. I'm certainly not going to order just one set.
   
   
   
   
 Status:
-- components have been ordered
-- PCB has been designed and ordered, but not arrived/tested yet. Before cloning I would suggest to wait for feedback if all went well.  
+- PCBs have arrived, assembled and code is working
+
+Errata: 
+- silkscreen says "0806", should be "0805"
 
 # Schematic and PCB
 
@@ -70,4 +76,22 @@ Others
 - Batt    15x   Q&J CR2032-BS-6-1   [LCSC Part # C70377](https://lcsc.com/product-detail/Battery-Connectors_Q-J-CR2032-BS-6-1_C70377.html)
 
 
+# Results
+
+I packed a few kits with a programmed Attiny13 already on the board. I'm waiting for assembly feedback.
+
+![IMG_20220904_204031101_cut](https://user-images.githubusercontent.com/78444256/188329187-7e223b5c-075e-4eea-9d1e-0e5accca88ad.jpg)
+
+![IMG_20220904_204101881_cut](https://user-images.githubusercontent.com/78444256/188329191-507ac8a6-2249-4a4a-97e0-832c48ab7ff1.jpg)
+![IMG_20220904_204820867_cut](https://user-images.githubusercontent.com/78444256/188329202-36b807fe-1ade-41a0-9ff3-ddc52e86c3f0.jpg)
+
+
+# Power consumption
+measured with 3V supply and 12Ohm resistor
+- 12x LED flash of 5msec, 42mV -> 3.5mA, energy of 17.5 mA msec
+- 12x pause between flashes 375msec, <0.01mA, energy of 3.75 mA msec
+- long pause 1.5sec, <0.01mA, energy of 15 mA msec
+
+Total of 6060msec and energy of 270 mA msec, average current of 0.045mA
+In theory, a CR2032 coin cell with 120mAh could last >100 days - let's see.
 
